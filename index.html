@@ -17,18 +17,14 @@
       
       var userGuess = prompt("Guess what letter I'm thinking of?");
 
-      var letter = ["B", "E", "J", "L", "I", "P", "Q"];
+      var compLetter = ["B", "E", "J", "L", "I", "P", "Q"];
 
-      //-- Logs created. --//
-      console.log("Computer letter guesses.");
-      console.log(letter[0]);
-      console.log(letter[1]);
-      console.log(letter[2]);
-      console.log(letter[3]);
-      console.log(letter[4]);
-      console.log(letter[5]);
-      console.log(letter[6]);
+      // Looping through each item in the array and logging a message to the console.
+      for (var i = 0; i < compLetter.length; i++) {
+        console.log("Computer letter guesses." + compLetter[i]);
+      }
 
+      
 
 
     </script>

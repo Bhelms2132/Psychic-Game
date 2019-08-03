@@ -4,59 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>The Psychic Game!</title>
 </head>
 <body>
+  <div>
+    <h1>The Psychic Game</h1>
+      <h2>Guess what letter I'm thinking of.</h2>
+       <p id = "userchoice-text"></p>
+        <p id = "computerchoice-text"></p>
+       <p id = "wins-text"><strong>Wins:</strong/p>
+      <p id = "losses-text"><strong>Losses:</strong/p>
+     <p id = "guessesleft-text"><strong>Guesses left:</strong/p> 
+    <P id = "guessessofar"><strong>Your guesse so far:</strong/P>
+  </div>
     
-     <div>
-       <h1>The Psychic Game</h1>
-         <h2>Guess what letter I'm thinking of.</h2>
-          <p id = "userchoice-text"></p>
-           <p id = "computerchoice-text"></p>
-          <p id = "wins-text"><strong>Wins:</strong/p>
-         <p id = "losses-text"><strong>Losses:</strong/p>
-        <p id = "guessesleft-text"><strong>Guesses left:</strong/p> 
-       <P id = "guessessofar"><strong>Your guesse so far:</strong/P>
-     </div>
-    
-     <script type="text/javascript">
-      
-      
-      //-- Letters chossen by computer. --//
-      var computerChoice = ["B", "E", "J", "L", "I", "P", "Q"];
-
-      var wins = 0;
-      var losses = 0;
-      var guessesLeft = 0;
-      var guessesSoFar = 0;
-
-      var userChoiceText = document.getElementById("userchoice-text");
-      var computerChoiceText = document.getElementById("computerchoice-text");
-      var winsText = document.getElementById("wins-text");
-      var lossesText = document.getElementById("losses-text");
-      var guessesLeftText = document.getElementById("guessLeft-text");
-      var guessesSoFar = document.getElementById("guessessofar");
-
-      document.onkeyup = function(event) {
-        
-        var userGuess = event.key;
-        var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
-       }
-
-
-      // Looping through each item in the array and logging a message to the console.
-      for (var i = 0; i < computerChoice.length; i++) {
-        console.log("Computer letter guesses." + computerChoice[i]);
-      }
-
-      
-
-
-    </script>
-
-    
+  <script src="./assets/javaScript/game.js"></script>
 </body>
 </html>

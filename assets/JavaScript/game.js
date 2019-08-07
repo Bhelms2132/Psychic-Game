@@ -29,19 +29,22 @@ document.onkeyup = function (event) {
     console.log(guessesLeft);
     guessesSoFar.push(userGuess);
     console.log(guessesSoFar);
-    guessesLeftText.textContent = "guessesLeft: " + guessesLeft;
-    guessesChosen.textContent = "guessessofar: " + guessesSoFar;
+    
     
     if (userGuess === computerGuess) {
         wins++;
         winsText.textContent = "wins: " + wins;
         computerGuess = computerChoice[Math.floor(Math.random() * computerChoice.length)];
         guessesLeft = 5;
+        guessesSoFar = [];
     }else if (guessesLeft === 0){
         losses++;
         lossesText.textContent = "losses: " + losses;
         computerGuess = computerChoice[Math.floor(Math.random() * computerChoice.length)];
         guessesLeft = 5;
+        guessesSoFar = [];
 
     } 
+    guessesLeftText.textContent = "guessesLeft: " + guessesLeft;
+    guessesChosen.textContent = "guessessofar: " + guessesSoFar;
 }

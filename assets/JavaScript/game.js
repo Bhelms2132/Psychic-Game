@@ -1,9 +1,4 @@
 
-
-
-
-
-
 //-- Letters chossen by computer. --//
 var computerChoice = ["a", "c", "g", "k", "r", "n"];
 var computerGuess = computerChoice[Math.floor(Math.random() * computerChoice.length)];

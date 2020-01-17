@@ -12,4 +12,7 @@ There are nine leters hard coded in an array for the game to choose from.   The 
 ## Technologies Used
 HTML,   JavaScript,   CSS
 
+## Start
+Here is a starting image of Psychic-Game.
+
 ![image](https://user-images.githubusercontent.com/52431116/72577529-1ddaf380-38a1-11ea-97b1-7ddcb379ba13.png)

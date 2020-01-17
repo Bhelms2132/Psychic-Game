@@ -1,7 +1,5 @@
 # Psychic-Game
 
-This project is using a mix of html, css and javascript. Some elements of javascript used in making this project are array, .onkeyup function,
-conditionls ie. if/else statements, console.log (tool helpfull for seeing if a certain code is working properly).
 
 
 ## How Psychic-Game works
@@ -17,6 +15,7 @@ Here is a starting image of Psychic-Game.
 
 ![image](https://user-images.githubusercontent.com/52431116/72577529-1ddaf380-38a1-11ea-97b1-7ddcb379ba13.png)
 
-
+## Game Played
+Here is an image of a game played.  Notice how it keeps track of the users current wins, losses, remaining picks and the choices that have been selected so the user dosen't chose the same letter twice.
 
 ![image](https://user-images.githubusercontent.com/52431116/72578990-be331700-38a5-11ea-920a-c361c274d3cc.png)

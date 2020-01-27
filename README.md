@@ -1,6 +1,7 @@
 # Psychic-Game
 
-
+## Link to Psychic-Game
+https://bhelms2132.github.io/Psychic-Game/
 
 ## How Psychic-Game works
 
